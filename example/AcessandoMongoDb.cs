@@ -6,7 +6,8 @@ namespace example
 {
     public class AcessandoMongoDb
     {
-        public async void AcessarServidor(){
+        public async void AcessarServidor()
+        {
             var documento = new ManipulandoDocumentos().CriarDocumentoMongo();
 
             //Acessando o servidor do mongodb

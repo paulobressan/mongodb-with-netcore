@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
@@ -13,6 +14,6 @@ namespace example
         public string Autor { get; set; }
         public int Ano { get; set; }
         public int Paginas { get; set; }
-        public IEnumerable<string> Assuntos { get; set; }
+        public IEnumerable<String> Assuntos { get; set; }
     }
 }

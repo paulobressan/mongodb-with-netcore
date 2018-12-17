@@ -8,7 +8,7 @@ namespace example
         {
             // var manipulandoDocumentos = new ManipulandoDocumentos();
             // Console.WriteLine(manipulandoDocumentos.CriarDocumentoMongo());
-            new ManipulandoClasses().AcessarServidor();
+            new ManipulandoBiblioteca().AcessarServidor();
             Console.ReadKey();
         }
     }
